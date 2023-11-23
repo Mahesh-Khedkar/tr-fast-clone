@@ -242,6 +242,11 @@
     /* border: 1px solid red; */
 }
 
+.products-row .col-6{
+    width: 15%;
+    /* border: 1px solid red; */
+}
+
 /* -------------Hover Effects------------------ */
 
 .company:hover .companyDropdown{
@@ -309,7 +314,7 @@
 
 .products:hover .nav-dropdown-menu-body-products{
     position: absolute;
-    transform: translateY(24.9%);
+    transform: translateY(40%);
     padding: 60px 0 67px 0;
     left: 5%;
     /* z-index: 5; */
