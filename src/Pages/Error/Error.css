@@ -1,0 +1,34 @@
+.error-img img{
+    width: 100%;
+    height: 100%;
+}
+.error-img{
+    width: 30%;
+    padding: 2rem;
+}
+.error-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+    
+    
+}
+.error-msgs{
+    width: 50%;
+    font-size: 1rem;
+}
+@media screen and (max-width:760px) {
+    .error-container{
+        flex-direction: column;
+        justify-content: space-around;
+       
+    }
+    .error-img{
+        width: 60%;
+    }
+    .error-msgs{
+        width: 50%;
+        font-size: 1rem;
+    }
+}

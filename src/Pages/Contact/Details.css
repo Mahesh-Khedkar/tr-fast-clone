@@ -2,16 +2,16 @@
     width: 22%;
     height: 45px;
     border-radius: 5px !important;
-    font-weight: 500;
+    font-weight: 700 !important;
     font-size: 1rem;
     color: #38a2dc !important;
-    background-color: #f0f0f0;
-    border-color: #f0f0f0;
+    background-color: #f0f0f0 !important;
+    border-color: #f0f0f0 !important;
     margin: 2rem 0 2rem 0;
 }
 .btnn:hover{
-    background-color: #dadada;
-    border-color: #f0f0f0;
+    background-color: #dadada !important;
+    border-color: #f0f0f0 !important;
     
 }
 .btnn:focus{
