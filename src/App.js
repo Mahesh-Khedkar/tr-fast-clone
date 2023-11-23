@@ -13,6 +13,7 @@ import Contact from './Pages/Contact/Contact';
 
 import Products from './Pages/Products/Products';
 import Sustainability from './Pages/Sustainability/Sustainability';
+import Error from './Pages/Error/Error';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/sustainability' element={<Sustainability/>}/>
           <Route path='/products' element={<Products/>}/>
+          <Route path='*' element={<Error/>}></Route>
         </Routes>
       </BrowserRouter>
 
