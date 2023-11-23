@@ -14,7 +14,7 @@ const People = () => {
           <article>
             <ArrowOutwardIcon style={{ color: "#1a7abf" }} />
           </article>
-          <img src="https://trfastenings.blob.core.windows.net/sitecontent/ea7ec85c35e347f0b2ed578c221f6ec3.jpg" />
+          <img src="https://trfastenings.blob.core.windows.net/sitecontent/ea7ec85c35e347f0b2ed578c221f6ec3.jpg" alt='People'/>
         </div>
         <div className="PeopleTextContent"
         style={{width:'100%', margin:'10px 0px 0px 0px'}}
@@ -37,7 +37,7 @@ const People = () => {
           <article>
             <ArrowOutwardIcon style={{ color: "orange" }} />
           </article>
-          <img src="https://trfastenings.blob.core.windows.net/sitecontent/ecc0c6cceb3a4c81bd2b6511d40ad726.jpg" />
+          <img src="https://trfastenings.blob.core.windows.net/sitecontent/ecc0c6cceb3a4c81bd2b6511d40ad726.jpg" alt='People'/>
         </div>
         <div className="PeopleTextContent"
         style={{width:'100%', margin:'10px 0px 0px 0px'}}
@@ -60,7 +60,7 @@ const People = () => {
           <article>
             <ArrowOutwardIcon style={{ color: "#642682" }} />
           </article>
-          <img src="https://trfastenings.blob.core.windows.net/sitecontent/70a522c729824e89b5ef65f7e1931597.jpg" />
+          <img src="https://trfastenings.blob.core.windows.net/sitecontent/70a522c729824e89b5ef65f7e1931597.jpg" alt='People'/>
         </div>
         <div className="PeopleTextContent"
         style={{width:'100%', margin:'10px 0px 0px 0px'}}
@@ -83,7 +83,7 @@ const People = () => {
           <article>
             <ArrowOutwardIcon style={{ color: "#1a7abf" }} />
           </article>
-          <img src="https://trfastenings.blob.core.windows.net/sitecontent/ae7625eb5b0f448486354df5b8272982.jpg" />
+          <img src="https://trfastenings.blob.core.windows.net/sitecontent/ae7625eb5b0f448486354df5b8272982.jpg" alt='People'/>
         </div>
         <div className="PeopleTextContent"
         style={{width:'100%', margin:'10px 0px 0px 0px'}}

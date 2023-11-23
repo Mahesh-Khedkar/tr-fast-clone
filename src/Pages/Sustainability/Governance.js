@@ -10,7 +10,7 @@ const Governance = () => {
           <article>
             <ArrowOutwardIcon style={{ color: "#1a7abf" }} />
           </article>
-          <img src="https://trfastenings.blob.core.windows.net/sitecontent/fe5b050ab0b343ae8c53f7c21d17270a.jpg" />
+          <img src="https://trfastenings.blob.core.windows.net/sitecontent/fe5b050ab0b343ae8c53f7c21d17270a.jpg" alt="Governance"/>
         </div>
         <div className="GovernanceTextContent">
           <h6>GOVERNANCE</h6>
@@ -30,7 +30,7 @@ const Governance = () => {
           <article>
             <ArrowOutwardIcon style={{ color: "#009640" }} />
           </article>
-          <img src="https://trfastenings.blob.core.windows.net/sitecontent/b64662279b4d4851b1776fd45b0ee889.jpg" />
+          <img src="https://trfastenings.blob.core.windows.net/sitecontent/b64662279b4d4851b1776fd45b0ee889.jpg" alt=""/>
         </div>
         <div className="GovernanceTextContent">
           <h6>INTERACTIVE TOOL</h6>

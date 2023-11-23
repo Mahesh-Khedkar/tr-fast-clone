@@ -34,7 +34,7 @@ const CompanySlider = () => {
               <Carousel.Item className="Company-carousal">
                 {/* <img src={e.imgData} height='100%' width='100%'></img> */}
                 <div className="Company-slider-main-div">
-                  <img src={e.imgData}></img>
+                  <img src={e.imgData} alt=""></img>
                   <div className="Company-slider-inner-div">
                     <div>
                       <h4>{e.head}</h4>

@@ -5,7 +5,7 @@ const Involve = () => {
     <div>
         <div className='Involve-main-div'>
          <div className='Involve-left-div'>
-         <img src='https://trfastenings.blob.core.windows.net/sitecontent/9e4eb756fa834abab8102b036753182e.png'></img>
+         <img src='https://trfastenings.blob.core.windows.net/sitecontent/9e4eb756fa834abab8102b036753182e.png' alt=''></img>
          </div>
          <div className='Involve-right-div'>
             

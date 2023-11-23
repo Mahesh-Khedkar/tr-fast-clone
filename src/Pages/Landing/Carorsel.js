@@ -10,7 +10,7 @@ function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item className='carouselItem'>
-        <img src='https://trfastenings.blob.core.windows.net/sitecontent/48d2fefe879c42b79c75d2ad12f6bb23.jpg'/>
+        <img src='https://trfastenings.blob.core.windows.net/sitecontent/48d2fefe879c42b79c75d2ad12f6bb23.jpg' alt='IMG'/>
         <Carousel.Caption className='Carousel-Caption'>
         <div className='Carousel-Caption-Div'>
             <h3 style={{color:'black'}}>Product visualisers</h3>
@@ -22,7 +22,7 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
-        <img src='https://trfastenings.blob.core.windows.net/sitecontent/332bead8d69449bd8c325afa9264f225.jpg'/>
+        <img src='https://trfastenings.blob.core.windows.net/sitecontent/332bead8d69449bd8c325afa9264f225.jpg' alt='IMG1'/>
         <Carousel.Caption className='Carousel-Caption'>
           <div className='Carousel-Caption-Div'>
             <h3 style={{color:'black'}}>Knowledge Base</h3>
@@ -34,7 +34,7 @@ function UncontrolledExample() {
         </Carousel.Caption> 
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
-        <img src='https://trfastenings.blob.core.windows.net/sitecontent/5642de1a9dd54689b65fe418ceabe9ac.png'/>
+        <img src='https://trfastenings.blob.core.windows.net/sitecontent/5642de1a9dd54689b65fe418ceabe9ac.png' alt='IMG2'/>
         <Carousel.Caption className='Carousel-Caption'>
         <div className='Carousel-Caption-Div'>
             <h3 style={{color:'black'}}>TR in industry</h3>

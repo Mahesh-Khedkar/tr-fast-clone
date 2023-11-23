@@ -75,6 +75,19 @@
     /* border: 1px solid red; */
 }
 
+.bookmark{
+    padding-left: 10px;
+    padding-right: 25px;
+    clip-path: polygon(92% 0, 100% 47%, 92% 100%, 0 100%, 0 0);
+    background: rgb(239, 238, 238);
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+.bookmark:hover{
+    text-decoration: underline gray;
+}
+
 .navbar-upper{
     height: 40%;
     display: flex;

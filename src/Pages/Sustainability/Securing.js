@@ -5,7 +5,7 @@ const Securing = () => {
   return (
     <div className="ProduceBody">
       <div className="ProduceImg">
-        <img src="https://trfastenings.blob.core.windows.net/sitecontent/3518d0d13c9649c19373caf41dc621fa.jpg" />
+        <img src="https://trfastenings.blob.core.windows.net/sitecontent/3518d0d13c9649c19373caf41dc621fa.jpg" alt='Securing'/>
       </div>
       <div className="ProduceText"
         style={{background:'#1a7abf'}}

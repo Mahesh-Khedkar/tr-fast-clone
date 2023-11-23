@@ -17,7 +17,7 @@ const Landing = () => {
       <Navbar/>
       <div className='anouncement'>
         <div className='anouncementImg'>
-          <img src='https://trfastenings.blob.core.windows.net/sitecontent/2eb3dd03ae5b409db49f173cbfdd4b98.png'/>
+          <img src='https://trfastenings.blob.core.windows.net/sitecontent/2eb3dd03ae5b409db49f173cbfdd4b98.png' alt='Landing'/>
         </div>
         <div>
           <p>

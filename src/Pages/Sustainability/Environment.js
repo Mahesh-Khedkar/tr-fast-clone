@@ -5,7 +5,7 @@ const Environment = () => {
   return (
     <div>
       <div className="Environment-div">
-        <img src="https://trfastenings.blob.core.windows.net/sitecontent/ca5958a212444e69873346df7cb98427.png"></img>
+        <img alt="Envoronment" src="https://trfastenings.blob.core.windows.net/sitecontent/ca5958a212444e69873346df7cb98427.png"></img>
         <div className="Environment-inner-div">
           <div>
             <h6>

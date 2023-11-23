@@ -11,7 +11,7 @@ const Company = () => {
     <div>
         <Navbar/>
         <div className='company-div'>
-            <img src='https://trfastenings.blob.core.windows.net/sitecontent/041f6a524b924a70bcd61911dc0ed047.jpg'></img>
+            <img src='https://trfastenings.blob.core.windows.net/sitecontent/041f6a524b924a70bcd61911dc0ed047.jpg' alt=''></img>
             <div className='company-inner-div'>
                  <div>
                     <h4>ABOUT US</h4>

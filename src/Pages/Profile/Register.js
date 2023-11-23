@@ -5,7 +5,6 @@ import Footer from "../../Components/Footer/Footer";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
-
 const Register = () => {
   return (
     <div className="form-container">
@@ -20,9 +19,13 @@ const Register = () => {
             <Form.Control className="text-field" type="text" placeholder="" />
           </Form.Group>
           <Form.Label className="label">
-              Country<sup>*</sup>
-            </Form.Label>
-          <Form.Select aria-label="Default select example" size="sm" className="text-field">
+            Country<sup>*</sup>
+          </Form.Label>
+          <Form.Select
+            aria-label="Default select example"
+            size="sm"
+            className="text-field"
+          >
             <option>Select Country</option>
             <option value="1">India</option>
             <option value="2">America</option>
@@ -97,26 +100,28 @@ const Register = () => {
               </div>
             ))}
           </Form.Group>
-         
-
-          
-            <Form.Check
-                className="terms-and-condition"
-              name="group1"
-              type="checkbox"
-              inline
-              label={ <p>
-      I confirm I have read and agree to the
-      <a href=""> Terms and Conditions of Use of www.trfastenings.com </a>
-      and <a href="">Privacy Policy</a>
-    </p>}
-            />
+          <Form.Check
+            className="terms-and-condition"
+            name="group1"
+            type="checkbox"
+            inline
+            label={
+              <p>
+                I confirm I have read and agree to the
+                <a href="#">
+                  {" "}
+                  Terms and Conditions of Use of www.trfastenings.com{" "}
+                </a>
+                and <a href="#">Privacy Policy</a>
+              </p>
+            }
+          />
           <Button
-              as="input"
-              type="submit"
-              value="Register"
-              className="submit-btn register-btn"
-            />{" "}
+            as="input"
+            type="submit"
+            value="Register"
+            className="submit-btn register-btn"
+          />{" "}
         </Form>
       </div>
       <Footer></Footer>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -39,12 +39,12 @@ const Navbar = () => {
 
   }
 
-  function openDropDown(){
-    const dropdown = document.querySelector(".profile-dropdown1")
+  // function openDropDown(){
+  //   const dropdown = document.querySelector(".profile-dropdown1")
  
-    dropdown.style.display='flex'
-    console.log(dropdown)
-  }
+  //   dropdown.style.display='flex'
+  //   console.log(dropdown)
+  // }
 
   return (
     <div className="navbarBody">
@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="navbar-container">
           <div className="collapsible-navbar">
             <div className="nav-logo" onClick={()=> navigate('/')}>
-              <img src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png" />
+              <img src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png" alt=""/>
             </div>
             <div className="navbar-upper-right">
               {/* <div className="navbar-upper">
@@ -61,24 +61,24 @@ const Navbar = () => {
                 </div> */}
                 <div className="navbar-upper">
                 <div className="nav-logo1">
-                  <img src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png" />
+                  <img src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png" alt=""/>
                 </div> 
 
-                  <span>Bookmark this page</span>
+                  <span className="bookmark">Bookmark this page</span>
                   <span>
-                    <img src="https://trfastenings.blob.core.windows.net/sitecontent/2604c4e121f5483eb5ed983dcee78b0e.svg" />
+                    <img src="https://trfastenings.blob.core.windows.net/sitecontent/2604c4e121f5483eb5ed983dcee78b0e.svg" alt=""/>
                   </span>
                   <div>
                     <span style={{ color: "#00a9b3", fontSize: "20px" }}>
                       <b>LON: 69.00 GBX</b>
                     </span>
                     <span style={{ color: "black" }}>|</span>
-                    <sapn style={{ color: "#00a9b3" }}>CAREERS</sapn>
+                    <sapn style={{cursor:'pointer', color: "#00a9b3" }}>CAREERS</sapn>
                     <span style={{ marginLeft: "50px" }}>
-                      <img style={{cursor:'pointer'}} src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" />
+                      <img style={{cursor:'pointer'}} src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" alt=""/>
                     </span>
                     <span style={{ marginRight: "0px" }} onClick={()=>navigate("/sign-in")}>
-                      <img style={{cursor:'pointer'}} src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" />
+                      <img style={{cursor:'pointer'}} src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" alt=""/>
                       <div className="profile-dropdown1" id="profile-dropdown1">
                         <p>My account</p>
                         <p>View enquires</p>
@@ -844,10 +844,10 @@ const Navbar = () => {
       <div className="accordion">
           <div className="accorsion-upper">
                     <span style={{ marginLeft: "5px" }}>
-                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" />
+                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/45bb321abc456e6aa8dc97921b992345.png" alt=""/>
                     </span>
                     <span style={{ marginRight: "0px" }}>
-                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" />
+                      <img src="https://trfastenings.blob.core.windows.net/sitecontent/d0f6693fb5594a969df92e34df6244c9.svg" alt=""/>
                     </span>
                     <div className="search-icon">
                       <SearchIcon />

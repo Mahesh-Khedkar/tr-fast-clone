@@ -12,10 +12,10 @@ const Investor = () => {
     <div>
         <Navbar/>
         <div className='Investor-first-div'>
-            <img src='https://trfastenings.blob.core.windows.net/sitecontent/b348f7f1dfda4f8c953e7b5f3eda26e3.jpg'></img>
+            <img src='https://trfastenings.blob.core.windows.net/sitecontent/b348f7f1dfda4f8c953e7b5f3eda26e3.jpg' alt=''></img>
             <div className='Investor-inner-div'>
                  <div>
-                    <img src='https://trfastenings.blob.core.windows.net/sitecontent/ecd48724bbaa485fbdd4d46191700ca7.png'></img>
+                    <img src='https://trfastenings.blob.core.windows.net/sitecontent/ecd48724bbaa485fbdd4d46191700ca7.png' alt=''></img>
                     <h1>Investors</h1>
                  </div>
             </div>

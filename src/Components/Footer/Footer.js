@@ -4,7 +4,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { useNavigate } from "react-router-dom";
 const Footer = () => {
-  const [data, setData] = useState([
+  const [data] = useState([
     "https://trfastenings.blob.core.windows.net/sitecontent/67c5f22b22e0497da5198214c57270ab.png",
     "https://trfastenings.blob.core.windows.net/sitecontent/2a6fc4ab17aa4a1aa7ab42604e042973.png",
     "https://trfastenings.blob.core.windows.net/sitecontent/245ac7890ae65477df4f757825e51234.png",
@@ -47,6 +47,7 @@ const Footer = () => {
               src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png"
               height="160px"
               width="140px"
+              alt=""
             ></img>
             <p className="left-para1">Focused on the future</p>
             <h3>Our purpose:</h3>
@@ -105,7 +106,7 @@ const Footer = () => {
       <div className="slider" style={{ transform: `translateX(-${currentSlide * (100 / slidesToShow)}%)` }}>
         {data.map((slide, index) => (
           <div key={index} className="slide">
-            <img className="footer-slider-image" src={slide} alt={`Slide ${index + 1}`} />
+            <img className="footer-slider-image" src={slide} alt={`Slide ${index + 1}`}/>
           </div>
         ))}
       </div>
@@ -135,15 +136,16 @@ const Footer = () => {
 
           <div className="right-div3">
             <div>
-              <img src="https://trfastenings.blob.core.windows.net/sitecontent/24e300787d1b78d3077d8862365d7b85.png"></img>
+              <img src="https://trfastenings.blob.core.windows.net/sitecontent/24e300787d1b78d3077d8862365d7b85.png" alt=""></img>
             </div>
             <div>
-              <img src="https://trfastenings.blob.core.windows.net/sitecontent/36a411898d2c89e4188f0084476e8d07.png"></img>
+              <img src="https://trfastenings.blob.core.windows.net/sitecontent/36a411898d2c89e4188f0084476e8d07.png" alt=""></img>
             </div>
             <div>
               <img
                 className="footer-annual-image"
                 src="https://trfastenings.blob.core.windows.net/sitecontent/34e300787d1b78e4188e9973476e8c96.png"
+                alt=""
               ></img>
               <p className="annual-para">
                 Download the Trifast plc Annual Report
